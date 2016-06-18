@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.2
 
 MAINTAINER Ianus IT GmbH <info@ianus-it.de>
 
