@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 MAINTAINER Ianus IT GmbH <info@ianus-it.de>
 
-RUN apk add --update postgrey &&\
+RUN apk add --update postgrey make &&\
     cpan -i NetAddr::IP &&\
     rm -rf /var/cache/apk/*
 
